@@ -33,12 +33,14 @@ form p {
   margin-bottom: 18px;
   font-size: 1em;
   line-height: 1.5em;
+  font-family: 'Merienda', cursive;
 }
 
 form fieldset {
   margin-bottom: 28px;
   padding: 0;
   border: none;
+  font-family: 'Luckiest Guy', cursive;
 }
 
 form a.continue {
@@ -96,6 +98,10 @@ form input [type="radio"]:checked + span {
   border: 2px solid #da966a;
   background-color: #f5ecee;
   color: #463822;
+}
+
+h1{
+  font-family: 'Cinzel Decorative', cursive;
 }
 
 /*animated entrance*/

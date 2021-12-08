@@ -1,23 +1,41 @@
-
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=Ch, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=Ch, initial-scale=1.0" />
     <title>Choose Your Own Adventure</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+
+    <!-- //tells the html to use this stylesheet to make things look nicey nice -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- //fonts from google - preconnect helps load faster -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Luckiest+Guy&family=Merienda&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="animate"></div>
-    <div id = "wrapper">
-        <h1>Welcome to the adventure!!!</h1>
-        <form id="theAdventure">
-            <p></p>
-            <fieldset></fieldset>
-            <button id="resetButton" class="reset"onclick="resetForm">Restart</button>
-            <a id="continueButton" class="continue" href="javascript:void(0);">Continue</a>
-        </form>
+
+    <!-- wrapper id is for styling everything in body -->
+    <div id="wrapper">
+      <h1>Welcome to the adventure!!!</h1>
+
+      <!-- form to hold all the information of the story and whats taking place -->
+      <form id="theAdventure">
+        <!-- p and fieldset are purposely empty. waiting to be filled with info from js -->
+        <p></p>
+        <fieldset></fieldset>
+        <button id="resetButton" class="reset" onclick="resetForm">
+          Restart
+        </button>
+        <a id="continueButton" class="continue" href="javascript:void(0);"
+          >Continue</a
+        >
+      </form>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
