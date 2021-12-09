@@ -17,24 +17,24 @@
     />
   </head>
   <body>
-    <div class="animate"></div>
+    <div class="animate fade">
+      <!-- wrapper id is for styling everything in body -->
+      <div id="wrapper">
+        <h1>Welcome to the adventure!!!</h1>
 
-    <!-- wrapper id is for styling everything in body -->
-    <div id="wrapper">
-      <h1>Welcome to the adventure!!!</h1>
-
-      <!-- form to hold all the information of the story and whats taking place -->
-      <form id="theAdventure">
-        <!-- p and fieldset are purposely empty. waiting to be filled with info from js -->
-        <p></p>
-        <fieldset></fieldset>
-        <button id="resetButton" class="reset" onclick="resetForm">
-          Restart
-        </button>
-        <a id="continueButton" class="continue" href="javascript:void(0);"
-          >Continue</a
-        >
-      </form>
+        <!-- form to hold all the information of the story and whats taking place -->
+        <form id="theAdventure">
+          <!-- p and fieldset are purposely empty. waiting to be filled with info from js -->
+          <p></p>
+          <fieldset></fieldset>
+          <button id="resetButton" class="reset" onclick="resetForm">
+            Restart
+          </button>
+          <a id="continueButton" class="continue" href="javascript:void(0);"
+            >Continue</a
+          >
+        </form>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
