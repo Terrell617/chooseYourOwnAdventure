@@ -109,7 +109,7 @@ h1{
 
 
 .animate {
-  animation-duration: 0.5s;
+  animation-duration: 0.8s;
   animation-name: animate-fade;
   animation-delay: 0.5s;
   animation-fill-mode: backwards;
@@ -122,4 +122,19 @@ h1{
   100% {
     opacity: 1;
   }
+}
+
+.delay-1{
+  animation-delay: .9s;
+}
+
+.delay-2{
+  animation-delay: 1.2s;
+}
+
+.delay-3{
+  animation-delay: 1.8s;
+}
+.delay-4{
+  animation-delay: 2.8s;
 }
